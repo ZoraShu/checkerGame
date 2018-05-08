@@ -1,0 +1,17 @@
+group 'who cares'
+version '0.0.1'
+
+apply plugin: 'idea'
+apply plugin: 'war'
+
+war.archiveName "myckeckers.war"                // gradle build
+
+project.archivesBaseName = "mycheckers"         // gradle install
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
