@@ -9,7 +9,7 @@ import javax.swing.*;
  */
 public class ChestGame extends JFrame {
     public static void main(String[] args) {
-        MoveList moveList = new MoveList("\\Users\\yueshu\\Documents\\OOP\\checkers\\src\\input.txt");
+        MoveList moveList = new MoveList("/Users/yueshu/Documents/OOP/checkers/src/input.txt");
         BoardManager manager = new BoardManager(moveList);
     }
 }

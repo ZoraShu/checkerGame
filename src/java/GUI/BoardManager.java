@@ -66,6 +66,8 @@ public class BoardManager extends JFrame implements ActionListener{
     }
 
     private void hitNextButton() {
+        _play.resetMoveable(_play.get_chestBoard());
+
         if (_currentStep[0] >= _moveList.getMoveList().size()) {
             JOptionPane.showMessageDialog(null, "No Next Step, you can click previous", "Alert: " , JOptionPane.INFORMATION_MESSAGE);
             return;
@@ -84,7 +86,6 @@ public class BoardManager extends JFrame implements ActionListener{
             _play.findAllMovable(turn[0]);
             _moveList.getBoardRecordList().add(new ChestBoard(_play.get_chestBoard()));
         }
-        _play.resetMoveable(_play.get_chestBoard());
         _checkersGUI.repaint();
         _currentStep[0]++;
 

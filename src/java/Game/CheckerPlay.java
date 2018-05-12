@@ -34,6 +34,11 @@ public class CheckerPlay {
                 }
             }
         }
+        _chestBoard.getSquareArray()[5][0].setMoveable(true);
+        _chestBoard.getSquareArray()[5][2].setMoveable(true);
+        _chestBoard.getSquareArray()[5][4].setMoveable(true);
+        _chestBoard.getSquareArray()[5][6].setMoveable(true);
+
     }
 
     public boolean movePiece (ChestBoard chestBoard, int turn, int row, int col, int toGoRow, int toGoCol) {
