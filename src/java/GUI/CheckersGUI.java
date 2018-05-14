@@ -17,8 +17,8 @@ import java.util.List;
  * This class will paint the checker board
  */
 public class CheckersGUI extends JPanel {
-    int[] _curStep;
-    MoveList _moveList;
+    private int[] _curStep;
+    private MoveList _moveList;
 
     CheckersGUI(int[] curStep, MoveList moveList) {
         _curStep = curStep;
@@ -90,7 +90,4 @@ public class CheckersGUI extends JPanel {
             e.printStackTrace();
         }
     }
-
-
-
 }

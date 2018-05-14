@@ -4,9 +4,9 @@ package Game;
  * Created by yueshu on 5/4/18.
  */
 public class ChestBoard {
-    int blackPiece;
-    int whitePiece;
-    Square[][] squareArray;
+    private int blackPiece;
+    private int whitePiece;
+    private Square[][] squareArray;
 
     public ChestBoard() {
         squareArray = new Square[8][8];

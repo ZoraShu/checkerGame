@@ -17,10 +17,11 @@ import java.util.Scanner;
 public class MoveList {
     //read file to list
     //record every move in case of hit previous
-    ArrayList<ChestBoard> boardRecordList;
-    ArrayList<List<Integer>> moveList;
-    ArrayList<Integer> _turnRecord;
-    String _path;
+    private ArrayList<ChestBoard> boardRecordList;
+    private ArrayList<List<Integer>> moveList;
+    private ArrayList<Integer> _turnRecord;
+    private String _path;
+
     MoveList(String path) {
         moveList = new ArrayList();
         _turnRecord = new ArrayList<>();
@@ -60,7 +61,6 @@ public class MoveList {
     public ArrayList<ChestBoard> getBoardRecordList() {
         return boardRecordList;
     }
-
     public ArrayList<List<Integer>> getMoveList() {
         return moveList;
     }

@@ -17,14 +17,14 @@ import java.util.List;
  * This class will create the Jframe and add all elements (checker board)
  */
 public class BoardManager extends JFrame implements ActionListener{
-    static int[] _currentStep;
+    private int[] _currentStep;
     private CheckerPlay _play;
     private MoveList _moveList;
-    CheckersGUI _checkersGUI;
-    static int[] turn = new int[1];
-    JFrame jf;
-    Button nextButton;
-    Button previousButton;
+    private CheckersGUI _checkersGUI;
+    private int[] turn = new int[1];
+    private JFrame jf;
+    private Button nextButton;
+    private Button previousButton;
 
     BoardManager(MoveList moveList) {
         _currentStep = new int[]{1};
@@ -66,7 +66,6 @@ public class BoardManager extends JFrame implements ActionListener{
     }
 
     private void hitNextButton() {
-        _play.resetMoveable(_play.get_chestBoard());
 
         if (_currentStep[0] >= _moveList.getMoveList().size()) {
             JOptionPane.showMessageDialog(null, "No Next Step, you can click previous", "Alert: " , JOptionPane.INFORMATION_MESSAGE);
@@ -78,11 +77,11 @@ public class BoardManager extends JFrame implements ActionListener{
             List<Integer> step = _moveList.getMoveList().get(_currentStep[0]);
             //if the current step is valid
             if (_play.movePiece(_play.get_chestBoard(), turn[0], step.get(0) / 8, step.get(0) % 8, step.get(1) / 8, step.get(1) %8)) {
-                System.out.println("helloWorld!!!!");
                 turn[0] *= -1;
             } else {
                 JOptionPane.showMessageDialog(null, step.get(0) + " to "+ step.get(1) + " is not Valid Move!!!", "Alert: " , JOptionPane.INFORMATION_MESSAGE);
             }
+            _play.resetMoveable(_play.get_chestBoard());
             _play.findAllMovable(turn[0]);
             _moveList.getBoardRecordList().add(new ChestBoard(_play.get_chestBoard()));
         }

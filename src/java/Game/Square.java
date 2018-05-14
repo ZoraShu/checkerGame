@@ -4,9 +4,8 @@ package Game;
  * Created by yueshu on 5/4/18.
  */
 public class Square {
-    Piece _piece;
-    boolean moveable;
-
+    private Piece _piece;
+    private boolean moveable;
     Square () {
 
     }

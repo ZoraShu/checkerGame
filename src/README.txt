@@ -6,9 +6,11 @@ IDE Used: IntelliJ IDEA. 2016.1
 
 Main File: ChestGame
 
+
 Load File: <Instructions on loading in the move file, including the filename of where you hardcoded the location if applicable.>
 
-    You can change the path of input data file in ChestGame to load move file, the file is in src folder
+    You have to change the path of input data file in ChestGame to load move file, the input file is in src folder
+
 
 Other Instructions: <Optional special instructions specific to your program>
 

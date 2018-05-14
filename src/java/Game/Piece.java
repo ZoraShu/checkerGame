@@ -5,8 +5,8 @@ package Game;
  */
 public class Piece {
     // 1 represent white, -1 represent black
-    int owner;
-    boolean crowed;
+    private int owner;
+    private boolean crowed;
 
     public int getOwner() {
         return owner;

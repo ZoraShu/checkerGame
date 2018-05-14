@@ -6,7 +6,7 @@ import GUI.MoveList;
  * Created by yueshu on 5/4/18.
  */
 public class CheckerPlay {
-    ChestBoard _chestBoard;
+    private ChestBoard _chestBoard;
     //array helps for initiating position for checkers
     public static final boolean[][] Init_SQUARE = new boolean[][]{
             {false, true, false, true,false, true, false, true},
@@ -165,7 +165,7 @@ public class CheckerPlay {
         for (int i = 0; i < 8; i ++) {
             for (int j = 0; j < 8; j++) {
                 ChestBoard temp = new ChestBoard(_chestBoard);
-                if ( temp.getSquareArray()[i][j]._piece != null && temp.getSquareArray()[i][j].getOwnerType() == turn) {
+                if ( temp.getSquareArray()[i][j].getpiece() != null && temp.getSquareArray()[i][j].getOwnerType() == turn) {
                     System.out.println("Try move" + i + j);
 
                     if (validSingleMove(temp, i, j, i - 1, j - 1) || validSingleMove(temp, i, j, i + 1, j - 1)
