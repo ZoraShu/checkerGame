@@ -8,7 +8,7 @@ import GUI.MoveList;
 public class CheckerPlay {
     private ChestBoard _chestBoard;
     //array helps for initiating position for checkers
-    public static final boolean[][] Init_SQUARE = new boolean[][]{
+    private static final boolean[][] Init_SQUARE = new boolean[][]{
             {false, true, false, true,false, true, false, true},
             {true, false, true, false, true, false, true, false},
             {false, true, false, true, false, true, false, true},
@@ -88,7 +88,6 @@ public class CheckerPlay {
     }
 
     public boolean validMutliMove(ChestBoard chestBoard, int owner, boolean crowed, int row, int col, int toGoRow, int toGoCol) {
-        System.out.println(owner + " : "+ row + col + toGoRow + toGoCol);
         if ((toGoRow == row) && (toGoCol == col) ) {
             return true;
         } else if (!validPosition(row, col) || !validPosition(toGoRow, toGoCol)) {
@@ -100,7 +99,6 @@ public class CheckerPlay {
                     && chestBoard.getPiece(row - 1, col + 1).getOwner() != owner && isEmpty(row - 2, col + 2)) {
                 Piece temp = chestBoard.removePiece(row - 1, col + 1);
                 if (validMutliMove(chestBoard, owner, crowed, row - 2,col + 2, toGoRow, toGoCol)) {
-                    System.out.println("go up");
                     return true;
                 };
                 chestBoard.addPiece(row - 1, col + 1, temp);
@@ -108,10 +106,8 @@ public class CheckerPlay {
 
             if (validPosition(row - 1, col - 1) && validPosition(row - 2, col - 2) && !isEmpty(row - 1, col - 1)
                     && chestBoard.getPiece(row - 1, col - 1).getOwner() != owner && isEmpty(row - 2, col - 2)) {
-                System.out.println("row - 1" + (row - 1) + "col - 1" + (col - 1) + "content :" + chestBoard.getPiece(row- 1, col - 1).getOwner());
                 Piece temp = chestBoard.removePiece(row - 1, col - 1);
                 if (validMutliMove(chestBoard, owner, crowed, row - 2, col - 2, toGoRow, toGoCol)) {
-                    System.out.println("go up right");
                     return true;
                 };
                 chestBoard.addPiece(row - 1, col - 1, temp);
@@ -123,7 +119,6 @@ public class CheckerPlay {
                     && chestBoard.getPiece(row + 1, col + 1).getOwner() != owner && isEmpty(row + 2, col + 2)) {
                 Piece temp = chestBoard.removePiece(row + 1, col + 1);
                 if (validMutliMove(chestBoard, owner, crowed, row + 2, col + 2, toGoRow, toGoCol)) {
-                    System.out.println("go up down");
                     return true;
                 };
                 chestBoard.addPiece(row + 1, col + 1, temp);
@@ -133,7 +128,6 @@ public class CheckerPlay {
                     && chestBoard.getPiece(row + 1, col - 1).getOwner() != owner && isEmpty(row + 2, col - 2)) {
                 Piece temp = chestBoard.removePiece(row + 1, col - 1);
                 if (validMutliMove(chestBoard, owner, crowed, row + 2, col - 2, toGoRow, toGoCol)) {
-                    System.out.println("go up down right");
                     return true;
                 };
                 chestBoard.addPiece(row + 1, col - 1, temp);
@@ -166,7 +160,6 @@ public class CheckerPlay {
             for (int j = 0; j < 8; j++) {
                 ChestBoard temp = new ChestBoard(_chestBoard);
                 if ( temp.getSquareArray()[i][j].getpiece() != null && temp.getSquareArray()[i][j].getOwnerType() == turn) {
-                    System.out.println("Try move" + i + j);
 
                     if (validSingleMove(temp, i, j, i - 1, j - 1) || validSingleMove(temp, i, j, i + 1, j - 1)
                             || validSingleMove(temp, i, j, i -1, j + 1) || validSingleMove(temp, i, j, i + 1, j + 1)) {
@@ -187,7 +180,7 @@ public class CheckerPlay {
         }
     }
 
-    public void resetMoveable(ChestBoard chestBoard) {
+    public void resetMoveable() {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j ++) {
                 _chestBoard.getSquareArray()[i][j].setMoveable(false);

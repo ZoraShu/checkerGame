@@ -63,6 +63,10 @@ public class CheckersGUI extends JPanel {
                     draw(g, y, x, 40, 40, "red.png");
                 }
 
+                if (_moveList.getBoardRecordList().get(_curStep[0] - 1).movable(i,j)) {
+                    draw(g, y, x, 40, 40, "movable.png");
+                }
+
                 List<Integer> curStepList = _moveList.getMoveList().get(_curStep[0] - 1);
                 if (curStepList.get(0) != -1 && curStepList.get(0) / 8 == i
                         && curStepList.get(0) % 8 == j) {
@@ -75,9 +79,7 @@ public class CheckersGUI extends JPanel {
 
 
                 }
-                if (_moveList.getBoardRecordList().get(_curStep[0] - 1).movable(i,j)) {
-                    draw(g, y, x, 40, 40, "movable.png");
-                }
+
             }
         }
     }

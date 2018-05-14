@@ -54,7 +54,6 @@ public class MoveList {
         List<Integer> result = new ArrayList<>();
         result.add(Integer.valueOf(temp[0]));
         result.add(Integer.valueOf(temp[1]));
-        System.out.println(result.get(0) + " " + result.get(1));
         return result;
     }
 

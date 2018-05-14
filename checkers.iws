@@ -7,24 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c6c7d1f-103a-4056-b713-5c25e6ff0c41" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/checkers_jar/checkers.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/Game/CheckerPlayTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/GUI/BoardManager.class" afterPath="$PROJECT_DIR$/out/production/checkers/GUI/BoardManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/GUI/CheckersGUI.class" afterPath="$PROJECT_DIR$/out/production/checkers/GUI/CheckersGUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/GUI/MoveList.class" afterPath="$PROJECT_DIR$/out/production/checkers/GUI/MoveList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/Game/CheckerPlay.class" afterPath="$PROJECT_DIR$/out/production/checkers/Game/CheckerPlay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/Game/ChestBoard.class" afterPath="$PROJECT_DIR$/out/production/checkers/Game/ChestBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/Game/Piece.class" afterPath="$PROJECT_DIR$/out/production/checkers/Game/Piece.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/checkers/Game/Square.class" afterPath="$PROJECT_DIR$/out/production/checkers/Game/Square.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkers.iws" afterPath="$PROJECT_DIR$/checkers.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/README.txt" afterPath="$PROJECT_DIR$/src/README.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/GUI/BoardManager.java" afterPath="$PROJECT_DIR$/src/java/GUI/BoardManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/GUI/CheckersGUI.java" afterPath="$PROJECT_DIR$/src/java/GUI/CheckersGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/GUI/MoveList.java" afterPath="$PROJECT_DIR$/src/java/GUI/MoveList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Game/CheckerPlay.java" afterPath="$PROJECT_DIR$/src/java/Game/CheckerPlay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Game/ChestBoard.java" afterPath="$PROJECT_DIR$/src/java/Game/ChestBoard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Game/Piece.java" afterPath="$PROJECT_DIR$/src/java/Game/Piece.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/Game/Square.java" afterPath="$PROJECT_DIR$/src/java/Game/Square.java" />
     </list>
     <ignored path="checkers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,8 +79,8 @@
       <file leaf-file-name="BoardManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/GUI/BoardManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="83" column="56" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
+            <state relative-caret-position="119">
+              <caret line="85" column="20" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +88,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CheckersGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/GUI/CheckersGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="72" column="49" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +113,8 @@
       <file leaf-file-name="MoveList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/GUI/MoveList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="164">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,21 +132,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckerPlay.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckerPlay.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/Game/CheckerPlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+            <state relative-caret-position="1815">
+              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChestBoard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChestBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/Game/ChestBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -215,12 +211,12 @@
         <option value="$PROJECT_DIR$/src/java/GUI/ChestGame.java" />
         <option value="$PROJECT_DIR$/src/java/Game/ChestBoard.java" />
         <option value="$PROJECT_DIR$/src/java/Game/Piece.java" />
-        <option value="$PROJECT_DIR$/src/java/GUI/MoveList.java" />
-        <option value="$PROJECT_DIR$/src/java/Game/CheckerPlay.java" />
-        <option value="$PROJECT_DIR$/src/java/GUI/CheckersGUI.java" />
-        <option value="$PROJECT_DIR$/src/java/GUI/BoardManager.java" />
         <option value="$PROJECT_DIR$/src/README.txt" />
         <option value="$PROJECT_DIR$/src/java/Game/Square.java" />
+        <option value="$PROJECT_DIR$/src/java/GUI/CheckersGUI.java" />
+        <option value="$PROJECT_DIR$/src/java/GUI/BoardManager.java" />
+        <option value="$PROJECT_DIR$/src/java/GUI/MoveList.java" />
+        <option value="$PROJECT_DIR$/src/java/Game/CheckerPlay.java" />
       </list>
     </option>
   </component>
@@ -381,11 +377,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -899,7 +895,7 @@
       <workItem from="1525637467133" duration="10985000" />
       <workItem from="1525674312426" duration="3489000" />
       <workItem from="1525704461026" duration="22406000" />
-      <workItem from="1526089779619" duration="2062000" />
+      <workItem from="1526089779619" duration="3037000" />
     </task>
     <servers />
   </component>
@@ -936,7 +932,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80193000" />
+    <option name="totallyTimeSpent" value="81168000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,8 +944,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -959,12 +955,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16915423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25248757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26609442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -976,7 +973,6 @@
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1324,64 +1320,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/GUI/MoveList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/GUI/CheckersGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Game/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/GUI/BoardManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="83" column="56" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Game/CheckerPlayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="10" selection-start-line="0" selection-start-column="2" selection-end-line="482" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/GUI/ChestGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1394,6 +1336,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Game/ChestBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Game/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Game/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1402,18 +1368,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Game/CheckerPlay.java">
+    <entry file="file://$PROJECT_DIR$/src/java/GUI/MoveList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+        <state relative-caret-position="164">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/GUI/BoardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/GUI/CheckersGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="72" column="49" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/GUI/ChestGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Game/ChestBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/java/Game/CheckerPlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="1815">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>

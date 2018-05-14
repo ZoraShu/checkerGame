@@ -81,7 +81,7 @@ public class BoardManager extends JFrame implements ActionListener{
             } else {
                 JOptionPane.showMessageDialog(null, step.get(0) + " to "+ step.get(1) + " is not Valid Move!!!", "Alert: " , JOptionPane.INFORMATION_MESSAGE);
             }
-            _play.resetMoveable(_play.get_chestBoard());
+            _play.resetMoveable();
             _play.findAllMovable(turn[0]);
             _moveList.getBoardRecordList().add(new ChestBoard(_play.get_chestBoard()));
         }
@@ -98,7 +98,6 @@ public class BoardManager extends JFrame implements ActionListener{
     }
 
     private void hitPreviousButton() {
-        System.out.println("Current step" + _currentStep[0]);
         if (_currentStep[0] == 1) {
             JOptionPane.showMessageDialog(null, "No Previous Step, you can click next button", "Alert: " , JOptionPane.INFORMATION_MESSAGE);
             return;
